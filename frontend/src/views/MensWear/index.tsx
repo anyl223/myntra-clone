@@ -3,6 +3,7 @@ import { Carousel } from "@mantine/carousel";
 import scss from "./menswear.module.scss";
 import Autoplay from "embla-carousel-autoplay";
 import "@mantine/carousel/styles.css";
+import { clsx } from "@/utils/string";
 const Menswear = () => {
   const autoplay = useRef(Autoplay({ delay: 1000 }));
   return (

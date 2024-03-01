@@ -48,7 +48,7 @@ function Layout({ children }: any) {
       <div className="flex flex-column w-100 h-100 ">
         {!NO_HEADER_ROUTES.includes(router.pathname) && <Header />}
         <div>{children}</div>
-        {!NO_HEADER_ROUTES.includes(router.pathname) && <Footer />}
+        {/* {!NO_HEADER_ROUTES.includes(router.pathname) && <Footer />} */}
       </div>
     )
   );
